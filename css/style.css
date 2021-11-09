@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8,59,76);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background: rgb(19,137,178);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-Fizz {
+    background: rgb(10,214,161);
+}
+
+.box-Buzz {
+    background: rgb(255,209,102);
+}
+
+.box-Fizzbuzz {
+    background: rgb(240,70,111);
+}
